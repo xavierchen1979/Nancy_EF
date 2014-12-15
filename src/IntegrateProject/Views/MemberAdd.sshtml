@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div style="width:60%">
+	<form action="/memberadd/" method="post">
+        <table class="table table-bordered">
+             
+                <tr>
+                    <td>Id:</td>
+                    <td><input type="text" name="mId"  /></td>
+                </tr>
+                <tr>
+                    <td>團隊名稱:</td>
+                    <td><input type="text" name="tName" /></td>
+                </tr>
+                <tr>
+                    <td>成員名稱:</td>
+                    <td><input type="text" name="mName"  /></td>
+                </tr>
+                <tr>
+                    <td>成員Email:</td>
+                    <td><input type="text" name="Email"  /></td>
+                </tr>
+				<tr>
+                    <td>成員年龄:</td>
+                    <td><input type="text" name="Age"  /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Add new"/></td>
+                </tr> 
+        </form>
+        </table>
+    </div>
+</body>
+</html>

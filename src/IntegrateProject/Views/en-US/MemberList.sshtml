@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="//code.jquery.com/jquery.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <title></title>
+</head>
+<body>
+    <div style="width:60%">
+        <table class="table table-bordered">
+            <tr>
+                <td>成員ID</td>
+				<td>團隊名稱</td>
+                <td>成員名稱</td>
+                <td>成員Email</td>
+				<td>成員年龄</td>
+                <td>建立日期</td>
+            </tr>
+
+            @Each.Model
+            <tr>
+                <td>@Current.mID</td>
+				<td>@Current.tName</td>
+                <td>@Current.mName</td>
+                <td>@Current.mEmail</td>
+				<td>@Current.mAge</td>
+                <td>@Current.mCdate</td>
+            </tr>
+            @EndEach
+
+        </table>
+    </div>
+</body>
+</html>
